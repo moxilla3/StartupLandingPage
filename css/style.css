@@ -47,10 +47,55 @@ table {
 	border-spacing: 0;
 }
 
-/* start my css */
+/* start my css just for visibility, can comment out later */
+header { 
+    display: block;
+}
+ 
+ .top-navigation {
+background-color: #fff;
+position: fixed;
+width: 100%;
+border-bottom: 1px solid #DDD;
+z-index: 9999;
+}
+
+.top-navigation > .content {
+	height: 4.4rem;
+}
+
+.top-navigation .links {
+float: right;
+color: #838994;
+font-size: 1.04rem;
+margin-top: 1.7rem;
+}
+
+.top-navigation .links li {
+display: inline-block;
+margin-left: 1.563rem;
+}
+
+
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.navlinks {
+	display: inline-block;
+}
+
 body {
+
+	font-family: 'Roboto', sans-serif;
     background-color: LightGray;
 }
 div {
     border: 1px solid Chocolate;
 }
+/* end my css just for visibility, can comment out later */
