@@ -51,29 +51,27 @@ table {
 header { 
     display: block;
 }
- 
+/* navigation section START */ 
  .top-navigation {
-background-color: #fff;
-position: fixed;
-width: 100%;
-border-bottom: 1px solid #DDD;
-z-index: 9999;
+    background-color: #fff;
 }
 
 .top-navigation > .content {
-	height: 4.4rem;
+	width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 .top-navigation .links {
-float: right;
-color: #838994;
-font-size: 1.04rem;
-margin-top: 1.7rem;
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
 }
 
 .top-navigation .links li {
-display: inline-block;
-margin-left: 1.563rem;
+    display: inline-block;
+    margin-left: 1.563rem;
 }
 
 
@@ -89,6 +87,9 @@ margin-left: 1.563rem;
 .navlinks {
 	display: inline-block;
 }
+
+.logo
+/* navigation section END */ 
 
 body {
 
