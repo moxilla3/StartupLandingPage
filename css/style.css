@@ -139,9 +139,9 @@ table {
 
 
 .introduction h1, .introduction h3 {
-color: white;
-text-align: center;
-font-weight: 300;
+	color: white;
+	text-align: center;
+	font-weight: 300;
 }
 
 .introduction h1 {
@@ -176,8 +176,6 @@ font-weight: 300;
 }
 
 
-
-
 .introduction .buttons {
 
 	text-align: center;
@@ -185,11 +183,74 @@ font-weight: 300;
 	color: white;
 
 }
-
-
-
-
 /* header section END */
+
+
+/**
+ * The Three Case Images
+ */
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    height: 500px;
+}
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float:left;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 2.5rem 0px 1.875rem;
+    height:4rem;
+    padding: 0 2rem; 
+
+
+
+}
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}
+
+.cases .devices {
+   
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end icons section */
+
+
+
 
 
 body {
