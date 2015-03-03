@@ -243,11 +243,14 @@ color: white;
     box-sizing: border-box;
     height: 4em;
     text-align: center;
-}
 
+/* end icons section */
+
+/* start social-FOOTER section */
 /**
  * Footer
  */
+
 .social {
     background-color: #fff;
     overflow: auto;
@@ -255,11 +258,27 @@ color: white;
     text-align: center;
 }
 
+
 .social hr {
     border: 0;
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
 }
+
+
+
+
+
+.social .content {
+
+text-align: center;
+}
+
+
+
+
+
+
 .social .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
